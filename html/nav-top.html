@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html"; charset="UTF-8">
+    <script src="../resource/js/jquery-3.2.1.min.js"></script>
+    <link href="../resource/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .tmColor{
+        color: #C40000 !important;
+    }
+    body{
+        font-size: 12px;
+        font-family: Arial;
+    }
+    nav.top span,nav.top a{
+
+        color: #999;
+        margin:0px 10px 0px 10px;
+    }
+    nav.top a:hover{
+        /*当鼠标移动到超链接上的时候，颜色为天猫红，并去掉超链接的下划线*/
+        color: #C40000;
+        text-decoration: none;
+    }
+    nav.top{
+        background-color: #f2f2f2;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+</style>
+<body>
+<nav class="top">
+    <a href="#">
+        <span class="glyphicon glyphicon-home tmColor"></span>
+        天猫首页
+    </a>
+    <span>喵，欢迎来到天猫</span>
+    <a href="#">请登陆</a>
+    <a href="#">免费注册</a>
+    <span class="pull-right">
+        <a href="#">我的订单</a>
+        <a href="#">
+            <span class="glyphicon glyphicon-shopping-cart tmColor"></span>
+            购物车<strong>0</strong>件
+        </a>
+    </span>
+</nav>
+</body>
+</html>
